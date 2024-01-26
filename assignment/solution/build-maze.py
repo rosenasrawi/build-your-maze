@@ -52,7 +52,7 @@ while queue:
     next = queue.pop(0)
 
     row, col = next
-    maze[row][col] = '*'
+    maze[row][col] = '.'
 
     if next == end:
         break
